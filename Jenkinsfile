@@ -8,7 +8,7 @@ pipeline {
 		PROJECT_ID = 'developer-411817'
                 CLUSTER_NAME = 'cluster-1'
                 LOCATION = 'us-central1'
-                CREDENTIALS_ID = 'developer'		
+                CREDENTIALS_ID = 'kubernetes'		
 	}
 	
     stages {
