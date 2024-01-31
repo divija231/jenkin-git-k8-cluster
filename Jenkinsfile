@@ -35,7 +35,7 @@ pipeline {
 		    steps {
 			    sh 'whoami'
 			    script {
-				    myimage = docker.build("nginx:${env.BUILD_ID}")
+				    myimage = docker.build("divija231/nginxdevops:${env.BUILD_ID}")
 			    }
 		    }
 	    }
