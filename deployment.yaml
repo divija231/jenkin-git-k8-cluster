@@ -17,7 +17,8 @@ spec:
   spec:
    containers:
    - name: myapp
-     image: ameintu/devops:tagversion
+     #image: ameintu/devops:tagversion
+     image: nginx
      ports:
      - containerPort: 8080
 
